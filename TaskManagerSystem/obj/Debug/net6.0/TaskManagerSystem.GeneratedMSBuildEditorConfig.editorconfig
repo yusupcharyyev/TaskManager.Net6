@@ -1,0 +1,144 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskManagerSystem
+build_property.RootNamespace = TaskManagerSystem
+build_property.ProjectDir = C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Admin/CreateCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlQ29tcGFueS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Admin/CreatePersonel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlUGVyc29uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Admin/CreateYonetici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlWW9uZXRpY2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Admin/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Manager/CreateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXENyZWF0ZVRhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Manager/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEdpcmlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Shared/Components/GetUserInfo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xHZXRVc2VySW5mb1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Personel/CreateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcUGVyc29uZWxcQ3JlYXRlVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Personel/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcUGVyc29uZWxcR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Shared/Components/GetUserPersonel/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcR2V0VXNlclBlcnNvbmVsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/TaskPersonel/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcVGFza1BlcnNvbmVsXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eeldn0xzbg
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-1428iwjujf
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Areas/Personel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29uZWxcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kja1wtm5ts
+
+[C:/Users/yuska/Desktop/TaskManagerSystem/TaskManagerSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tbmodql5eb
