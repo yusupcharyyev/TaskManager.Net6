@@ -1,0 +1,12 @@
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\bin\Debug\net6.0\TaskManagerSystem.Models.deps.json
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\bin\Debug\net6.0\TaskManagerSystem.Models.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\bin\Debug\net6.0\TaskManagerSystem.Models.pdb
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.csproj.AssemblyReference.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.AssemblyInfoInputs.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.AssemblyInfo.cs
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.csproj.CoreCompileInputs.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\refint\TaskManagerSystem.Models.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\TaskManagerSystem.Models.pdb
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.Models\obj\Debug\net6.0\ref\TaskManagerSystem.Models.dll

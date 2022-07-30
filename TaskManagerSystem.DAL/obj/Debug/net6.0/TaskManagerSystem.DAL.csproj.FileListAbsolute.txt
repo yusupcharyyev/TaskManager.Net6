@@ -1,0 +1,17 @@
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.DAL.deps.json
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.DAL.runtimeconfig.json
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.DAL.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.DAL.pdb
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.Models.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\bin\Debug\net6.0\TaskManagerSystem.Models.pdb
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.AssemblyInfo.cs
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.csproj.CopyComplete
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\refint\TaskManagerSystem.DAL.dll
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.pdb
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\TaskManagerSystem.DAL.genruntimeconfig.cache
+C:\Users\yuska\Desktop\TaskManagerSystem\TaskManagerSystem.DAL\obj\Debug\net6.0\ref\TaskManagerSystem.DAL.dll
