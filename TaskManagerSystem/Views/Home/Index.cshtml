@@ -1,0 +1,26 @@
+﻿@model UserDTO
+@{
+    ViewData["Title"] = "Giriş Panel";
+}
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-4">
+          @if (!ViewData.ModelState.IsValid && ViewData.ModelState["Error"].Errors.Count > 0)
+            {
+                <div class="alert alert-danger">@ViewData.ModelState["Error"].Errors.First().ErrorMessage</div>
+            }
+    <div class="alert alert-warning" role="alert">
+        Admin için : yusupcharyyev , Yusup1996.
+    </div>
+        <form asp-action="Index" asp-controller="Home" method="post">
+            <div class="mb-3">
+                <label for="exampleInputUserName" class="form-label">Kullanıcı Adı</label>
+                <input type="text" class="form-control" asp-for="UserName" id="exampleInputUserName" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                <input type="password" class="form-control" asp-for="Password" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Giriş Yap</button>
+        </form>
+    </div>
+</div>

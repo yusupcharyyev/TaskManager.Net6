@@ -1,0 +1,230 @@
+﻿@model List<Tasks>
+
+@section managerTask{
+    <link rel="stylesheet" href="~/css/ManagerTask.css" />
+}
+
+@*Yuksek*@
+<div class="row d-flex justify-content-center container">
+    <div class="col-md-12">
+        <div class="card-hover-shadow-2x mb-3 card">
+            <div class="card-header-tab card-header">
+                <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                    <i class="fa fa-tasks"></i>&nbsp;Acil Sırası : Yüksek
+                </div>
+
+            </div>
+            <div class="scroll-area-sm">
+                <perfect-scrollbar class="ps-show-limits">
+                    <div style="position: static;" class="ps ps--active-y">
+                        <div class="ps-content">
+                            @foreach (var item in Model)
+                            {
+                                if (item.priorityStatu == PriorityStatu.Yuksek)
+                                {
+                                    <ul class=" list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="todo-indicator bg-danger"></div>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left mr-2">
+                                                    </div>
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Title
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Content
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.CreateDate.AddDays(item.EndTime).ToString("dd.MM.yyyy")
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-3">
+                                                        <div class="widget-heading">
+                                                            @foreach (UserTask items in item.UserTasks)
+                                                            {
+                                                                @items.Users.UserName
+                                                            }
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-right col-3">
+                                                        <div class="badge badge-danger ml-2">@item.Action</div>
+
+                                                        <div class="badge badge-danger ml-2">@item.priorityStatu</div>
+                                                        @if (item.FilePath != null)
+                                                        {<a target="_blank" asp-action="DownloadFile" asp-controller="Manager" asp-route-fileName="@item.FilePath"><i class="fas fa-file"></i>File</a>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                }
+                            }
+                        </div>
+
+                    </div>
+                </perfect-scrollbar>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Orta*@
+<div class="row d-flex justify-content-center container">
+    <div class="col-md-12">
+        <div class="card-hover-shadow-2x mb-3 card">
+            <div class="card-header-tab card-header">
+                <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                    <i class="fa fa-tasks"></i>&nbsp;Acil Sırası : Orta
+                </div>
+
+            </div>
+            <div class="scroll-area-sm">
+                <perfect-scrollbar class="ps-show-limits">
+                    <div style="position: static;" class="ps ps--active-y">
+                        <div class="ps-content">
+                            @foreach (var item in Model)
+                            {
+                                if (item.priorityStatu == PriorityStatu.Orta)
+                                {
+                                    <ul class=" list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="todo-indicator bg-warning"></div>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left mr-2">
+                                                    </div>
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Title
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Content
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.CreateDate.AddDays(item.EndTime).ToString("dd.MM.yyyy")
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-3">
+                                                        <div class="widget-heading">
+                                                            @foreach (UserTask items in item.UserTasks)
+                                                            {
+                                                                @items.Users.UserName
+                                                            }
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-right col-3">
+                                                        <div class="badge badge-danger ml-2">@item.Action</div>
+
+                                                        <div class="badge badge-danger ml-2">@item.priorityStatu</div>
+                                                        @if (item.FilePath != null)
+                                                        {<a target="_blank" asp-action="DownloadFile" asp-controller="Manager" asp-route-fileName="@item.FilePath"><i class="fas fa-file"></i>File</a>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                }
+                            }
+                        </div>
+
+                    </div>
+                </perfect-scrollbar>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Dusuk*@
+<div class="row d-flex justify-content-center container">
+    <div class="col-md-12">
+        <div class="card-hover-shadow-2x mb-3 card">
+            <div class="card-header-tab card-header">
+                <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                    <i class="fa fa-tasks"></i>&nbsp;Acil Sırası : Düşük
+                </div>
+
+            </div>
+            <div class="scroll-area-sm">
+                <perfect-scrollbar class="ps-show-limits">
+                    <div style="position: static;" class="ps ps--active-y">
+                        <div class="ps-content">
+                            @foreach (var item in Model)
+                            {
+                                if (item.priorityStatu == PriorityStatu.Dusuk)
+                                {
+                                    <ul class=" list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="todo-indicator bg-info"></div>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left mr-2">
+                                                    </div>
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Title
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.Content
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-2">
+                                                        <div class="widget-heading">
+                                                            @item.CreateDate.AddDays(item.EndTime).ToString("dd.MM.yyyy")
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-left col-3">
+                                                        <div class="widget-heading">
+                                                            @foreach (UserTask items in item.UserTasks)
+                                                            {
+                                                                @items.Users.UserName
+                                                            }
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="widget-content-right col-3">
+                                                        <div class="badge badge-danger ml-2">@item.Action</div>
+
+                                                        <div class="badge badge-danger ml-2">@item.priorityStatu</div>
+                                                        @if (item.FilePath != null)
+                                                        {<a target="_blank" asp-action="DownloadFile" asp-controller="Manager" asp-route-fileName="@item.FilePath"><i class="fas fa-file"></i>File</a>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                }
+                            }
+                        </div>
+
+                    </div>
+                </perfect-scrollbar>
+            </div>
+        </div>
+    </div>
+</div>

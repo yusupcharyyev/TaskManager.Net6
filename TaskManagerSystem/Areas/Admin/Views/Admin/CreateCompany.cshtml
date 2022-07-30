@@ -1,0 +1,19 @@
+﻿@model CreateCompanyDTO
+
+<div class="row justify-content-center align-items-center">
+    <div class="col-lg-6">
+        @if (ViewData.ModelState["Success"] != null)
+        {
+            <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.First().ErrorMessage</div>
+        }
+        <form asp-action="CreateCompany" asp-controller="Admin" method="post">
+            <div class="form-group">
+                <label for="inputAddress">Şirket Adı</label>
+                <input type="text" class="form-control" asp-for="CompanyName" id="inputAddress" placeholder="ProjeIT">
+                <span asp-validation-for="CompanyName" style="color:red;"></span>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Şirket Ekle</button>
+        </form>
+    </div>
+</div>

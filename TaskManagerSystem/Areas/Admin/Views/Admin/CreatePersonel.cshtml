@@ -1,0 +1,37 @@
+﻿@model CreatePersonelDTO
+
+
+<div class="row justify-content-center align-items-center">
+    <div class="col-lg-6">
+        <form asp-action="CreatePersonel" asp-controller="Admin" method="post">
+            <div class="form-group">
+                <label for="inputAddress">İsim</label>
+                <input type="text" class="form-control" id="inputAddress" asp-for="FirstName">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Soyisim</label>
+                <input type="text" class="form-control" id="inputAddress" asp-for="LastName">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Kullanıcı Adı</label>
+                <input type="text" class="form-control" id="inputAddress" asp-for="UserName">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">E-Mail</label>
+                <input type="email" class="form-control" id="inputAddress" asp-for="Email">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Şifre</label>
+                <input type="password" class="form-control" id="inputAddress" asp-for="Password">
+            </div>
+            <br />
+            <div class="form-control">
+                <label asp-for="YoneticiID">Yoneticiler</label>
+                <select class="selectpicker" data-live-search="true" asp-for="@Model.YoneticiID" asp-items="@(new SelectList(Model.Yoneticiler,"Id","FirstName","LastName"))">
+                </select>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Personel Ekle</button>
+        </form>
+    </div>
+</div>
